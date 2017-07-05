@@ -1,0 +1,30 @@
+asynchronous programming:
+    event loop--queue
+    array=[]
+    jispe while loop lga hua hai
+    loop mein ek ke krke fn puch hota hai jab use execute krana hota hai
+    fn1 fn2 fn 3
+    fn2 gets data from server then responds
+    fn 1 is inserted in queue
+    then fn3 is inserted
+    after the fn2 recieves data then it is inserted in the Array
+    so order =  fn fn3 fn2
+callback hell- fn returning functions
+prototype-
+    prototypicala chain
+    __proto__
+    [[prototype]]
+    .prototype
+    .constructor
+
+task:
+    inheritance concepts
+    ui improvements in todolist
+
+callback-
+    setInterval
+    setTimeout
+
+next class:
+    promises
+    jquery

@@ -1,0 +1,19 @@
+#in-screen{
+    display:block;
+    /*flex-wrap: wrap;*/
+    text-align:right;
+    height: 30px;
+    width: 90px;
+    margin:0;
+    border:1px solid black;
+    background-color: whitesmoke;
+}
+#out-screen{
+    height:8px;
+    text-align: left;
+    /*border-bottom:1px solid;*/
+    font-size: 8px;
+}
+button{
+    width:23px;
+}

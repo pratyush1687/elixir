@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Coding Blocks Form</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Revalia" rel="stylesheet">
+</head>
+<style>
+    #top-intro{
+        background-image: url("form-backg.png");
+        float;
+        background-size: cover;
+        height: 400px;
+        display:;
+
+    }
+    #image{
+        display: inline-flex;
+        padding-top: 10%;
+        width:70px;
+        height: 70px;
+        margin-left: 20%;
+    }
+    #heading{
+        display: inline;
+        color: white;
+        font-size: 64px;
+        padding-bottom: 5%;
+        margin-bottom: 5%;
+        font-family: 'Revalia',cursive;
+    }
+    #init-text{
+        color:red;
+    }
+    form{
+        display: block;
+        margin-left: 25%;
+        font-size: 20px;
+    }
+    body{
+        font-family:'PT Sans',sans-serif ;
+        margin:0;
+        margin-bottom:5%;
+    }
+    input{
+        height:25px;
+        border-radius: 10%;
+        border-style: groove;
+    }
+    #button{
+        margin-left:25%;
+        height:30px;
+    }
+    button{
+        height:30px;
+        border-radius: 10%;
+    }
+    tr{
+        width:30px;
+    }
+    .extr-space{
+        height:5px;
+    }
+    .star{
+        color:red;
+    }
+
+</style>
+<body>
+    <div id="top-intro">
+        <div id="image"><img src="images.png" alt="logo" width="66" ></div>
+        <div id="heading">Coding Blocks Form</div>
+    </div>
+    <h3 id="init-text">* Please fill the details given below</h3>
+    <form action="#" method="post">
+        <table border="0px" cellpadding="0px">
+            <tr><td></td>
+                <td>First Name<span class="star">*</span> : </td>
+                <td><input type="text" name="name"  ></td>
+            </tr>
+            <tr class="extr-space"></tr>
+            <tr><td></td>
+                <td>DOB<span class="star">*</span>:</td>
+                <td><input type="date" name="DOB" ></td>
+            </tr>
+            <tr class="extr-space"></tr>
+            <tr><td></td>
+                <td>Phone No.<span class="star">*</span>:</td>
+                <td><input type="number" name="phone"></td>
+            </tr>
+            <tr class="extr-space"></tr>
+            <tr><td></td>
+                <td>Email<span class="star">*</span>:</td>
+                <td><input type="email" name="mailid"></td>
+            </tr>
+            <tr class="extr-space"></tr>
+            <tr><td></td>
+                <td>Password<span class="star">*</span>:</td>
+                <td><input type="password" name="password"></td>
+            </tr>
+            <tr class="extr-space"></tr>
+            <tr><td></td><td>Confirm Password<span class="star">*</span>:</td> <td><input type="password" name="checkpass"></td></tr>
+            <tr><td></td><td>Course Choice<span class="star">*</span> :</td><td colspan="1" align="left"><input type="radio" name="course" value="pandora">Pandora(Android)</td></tr>
+            <tr><td></td>
+                <td></td>
+                <td colspan="1" align="left"><input type="radio" name="course" value="Elixir">Elixir(Web Dev)</td>
+            </tr>
+            <tr><td></td>
+                <td></td>
+                <td colspan="1" align="left"><input type="radio" name="course" value="Launchpad">LaunchPad</td>
+            </tr>
+            <tr><td></td>
+                <td></td>
+                <td colspan="1" align="left"><input type="radio" name="course" value="crux">Crux</td>
+            </tr>
+            <tr>
+                <td>Center Choice<span class="star">*</span>:</td>
+                <td><input type="checkbox" value="pitampura">Pitampura </td>
+                <td><input type="checkbox" value="dwarka">Dwarka </td>
+                <td><input type="checkbox" value="g.noida">Greater noida</td>
+            </tr>
+            <tr><td></td>
+                <td colspan="2">(choose all centers comfortable to you)</td>
+            </tr>
+        </table>
+            <br>
+            <div id="button">
+                <button type="submit">Submit</button> <button type="reset"> Reset </button>
+            </div>
+
+    </form>
+</body>
+</html>

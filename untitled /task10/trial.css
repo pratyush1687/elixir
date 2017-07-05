@@ -1,0 +1,186 @@
+/*loader css*/
+div#box{
+    width:6vh;
+    height:6vh;
+    background-color: red;
+    animation-name: bounce;
+    animation-duration: 4s;
+    animation-iteration-count: 1000000000000000000000000000000000000000000;
+    position:relative;
+    top:42vh;
+    left:-25vw;
+}
+@keyframes bounce {
+    0% {
+        border-radius: 0 0 0 0;
+        transform: rotate(0deg);
+        transform: translateX(0px);
+    }
+    25% {
+        border-radius: 50% 0 0 0 ;
+        transform:rotate(90deg);
+        transform: translateX(10vw);
+    }
+    50%{
+        border-radius:50% 50% 0 0;
+        transform:rotate(180deg);
+        transform: translateX(20vw);
+    }
+    75%{
+        border-radius: 50% 50% 50% 0;
+        transform:rotate(270deg);
+        transform: translateX(30vw);
+
+    }
+
+    100%{
+        /*border-radius: 50% 50% 50% 50%;*/
+        transform:rotate(270deg);
+    }
+}
+
+/*main css*/
+#main{
+    background-color: whitesmoke;
+    height:10vh;
+    /*padding:0;*/
+    /*margin:aut 0;*/
+    /*width:100vw;*/
+}
+.input-group{
+    margin-top: 2vh;
+    border-radius: 20px 0 0 20px;
+    border-width: 0;
+}
+.fat-search{
+    background-color: white;
+    height:3.9vh;
+    margin-top: 1.6% ;
+    /*padding-top:.3%;*/
+    text-align: center;
+    border-radius: 0 10px 10px 0;
+    width:40px;
+}
+#queryin:focus{
+    outline:none;
+    background-color: green;
+    height:inherit;
+    /*to be changed*/
+    /*border-radius: 0 10px 10px 0;*/
+}
+.row1>.card{
+    margin:1%;
+}
+.fa-times-circle-o{
+    position: absolute;
+    z-index:2000;
+    top:5vh;
+    left:90vw;
+}
+.above{
+    position:absolute;
+}
+.output{
+    height: 70vh;
+    position: absolute;
+    z-index:2000;
+    top:10vh;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,.2);
+    background-color: whitesmoke;
+}
+/*i.fa.fa-times-circle-o{
+    display:none;
+}
+.output{
+    display:none;
+}*/
+.output>.row>.card3{
+    height:67vh;
+    margin:1% 0 1% 1%;
+    text-align: center;
+
+}
+
+.output>.row>.card2{
+    height:67vh;
+    background-color: white;
+    margin:1% 1% 1% 0 ;
+    border-width:1px solid !important;
+}
+.output>.row .card{
+    border-radius:0;
+}
+.fa-twitter{
+    color:white;
+}
+.card2>h4{
+    margin-top: 30%;
+    margin-left:5%;
+}
+.card2>h2{
+    margin-left:5%;
+}
+.card3>a>button{
+    margin-top: 20%;
+}
+.card3>a>button,.card2>center>a>button{
+    /*text-align: center;*/
+
+    color: white;
+    width:40%;
+    background-color: #4099ff;
+    border:0;
+    cursor:pointer;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,.3);
+    /*margin-top:20%;*/
+    /*margin-left: 10%;*/
+}
+.card3>a>button:hover{
+    transform:scale(1.2);
+}
+
+.my-image{
+    margin-top:15%;
+    width:40%;
+    margin-left:-20%;
+    border-radius:50%;
+    background-color: white;
+    position: absolute;
+    z-index:2500;
+}
+.name-head{
+    margin-top:25%;
+}
+.tag{
+    margin-top:0%;
+    font-family:cursive;
+    color:#4099ff;
+}
+
+.image-bg{
+    background-color: #4099ff;
+    margin:0;
+    padding:0;
+    /*width:20%;*/
+    height:18vh;
+    position:relative;
+}
+.output .card{
+    padding:0;
+}
+
+@media screen and (min-width:320px) and (max-width:680px) {
+
+    .output>.row>.card3{
+        height:22vh;
+        margin:1% 0 0% 0%;
+    }
+
+    .output>.row>.card2{
+        height:45vh;
+        background-color: white;
+        margin:0% 1% 1% 0 ;
+        border-width:1px solid !important ;
+
+    }
+}

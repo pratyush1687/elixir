@@ -1,0 +1,88 @@
+body {
+	font-family: 'Roboto', sans-serif; 
+}
+.testin{
+	background-color: #333;
+	color: darkgray;
+	display: inline-block;
+	position: relative;
+	cursor: crosshair;
+	top: 50px;
+	left: 50px;
+	z-index: 100;
+	padding: 10px;
+}
+
+.first-drop {
+	background-color: #A6DDF1;
+	/*display: inline-block;*/
+	display: none;
+	position: absolute;
+	/*left: 50px;*/
+	/*top: 112px;*/
+	padding-right: 15px;
+}
+
+nav ul {
+	margin-bottom: 10px;
+}
+nav li {
+	list-style: none;
+	padding: 4px 0;
+}
+
+nav i {
+	margin-left: 30px;
+	float: right;
+}
+
+nav .first-sub {
+	background-color: #A6DDF1;
+	/*display: inline-block;*/
+	display: none;
+	position: absolute;
+	left: 255px;
+	top: 112px;
+	padding-right: 15px;
+}
+
+nav .second-sub {
+	background-color: #A6DDF1;
+	/*display: inline-block;*/
+	display: none;
+	position: absolute;
+	left: 255px;
+	top: 152px;
+	padding-right: 15px;
+}
+
+nav .third-sub {
+	background-color: #A6DDF1;
+	/*display: inline-block;*/
+	display: none;
+	position: absolute;
+	left: 255px;
+	top: 153px;
+	padding-right: 15px;
+}
+
+nav .third-sub ul{
+	margin-top: 10px;
+}
+
+nav{
+	position:relative;
+	height:60px;
+}
+
+.testin:hover .first-drop {
+	background-color: #A6DDF1;
+	display: block;
+	/*display: none;*/
+	position: absolute;
+	cursor: hand;
+	left: 20px;
+	top: 23px;
+	width:150px;
+	padding-right: 15px;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<center><h1>Coding blocks form</h1></center>
+<center>
+    <form action="/search" method="post"> <!--# to self direct
+                                   /f fv to append path after domainn
+                                   kdcn to append path in same directory-->
+        <input type="text" name="main"> &nbsp;
+        <input type="text" name="secondary"> &nbsp;
+        <button type="submit">Submit</button>
+        <input type="button" value="main" onclick="location.href = 'https://google.com';" >
+        <!--not good approach-->
+        <button  onclick="location.href='https://google.com';">Google URL</button>
+        <!--correct approach only works if but
+        ton is out of form if in form the action directory shld be wrong -->
+
+    </form>
+</center>
+</body>
+</html>

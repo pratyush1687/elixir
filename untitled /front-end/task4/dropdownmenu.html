@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .o1:hover .t{
+        display:block;
+        transition-delay: 2s;
+    }
+    .o1{
+        position: relative;
+        display: inline-block;
+        width:60px;
+        background-color: whitesmoke;
+        box-shadow: 0px 4px 8px 0px gray;
+    }
+    .t{
+        background-color:;
+        position: absolute;
+        top:15px;
+        width: 50px;
+        display: none;
+        box-shadow: 0px 4px 8px 0px gray;
+    }
+    .p{
+        background-color:whitesmoke;
+        position: absolute;
+        /*top:0px;*/
+        left:85px;
+        display: none;
+        box-shadow: 0px 4px 8px 0px gray;
+    }
+    .o2:hover .p{
+        z-index:1;
+        display: block;
+        transition-delay: 2s;
+    }
+</style>
+<body>
+    <div>
+        <ul type="none">
+            <li class="o1">menu
+                <ul class="t" type="none">
+                        <li>
+                            <div class="o2">
+                                item 1
+                                <div class="p" type="none">
+                                    <!--<li>-->
+                                    item3<br>
+                                    <!--</li>-->
+                                    <!--<li>-->
+                                    item4
+                                    <!--</li>-->
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="o2">
+                            item 2
+                                <div class="p">
+                                    <!--<li>-->
+                                        cdcdc<br>
+                                    <!--</li>-->
+                                    <!--<li>-->
+                                        dcc
+                                    <!--</li>-->
+                                </div>
+                            </div>
+                        </li>
+                </ul>
+            </li>
+
+            <li class="o1">new
+                <ul class="t" type="none">
+                    <li>
+                        <div class="o2">
+                            item 1
+                            <div class="p">
+                                <!--<li>-->
+                                    item3<br>
+                                <!--</li>-->
+                                <!--<li>-->
+                                item4
+                                <!--</li>-->
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="o2">
+                            item 2
+                            <div class="p">
+                                <!--<li>-->
+                                    cdcdc<br>
+                                <!--</li>-->
+                                <!--<li>-->
+                                    dcc
+                                <!--</li>-->
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+</body>
+</html>

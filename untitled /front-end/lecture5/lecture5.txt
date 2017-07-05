@@ -1,0 +1,75 @@
+device ratio:hardware width and height
+
+aspect ratio:screen width and height
+<meta name="viewport" content="width
+pixels:
+    1.physical pixels
+
+    2.logical pixels
+
+
+@media Queries{
+
+}
+
+
+the style changes when the screen changes
+if writing the query for n different screens so you can write n media queries but it is not a good practice
+
+fixed approach:
+<-320px;
+320-680px;
+680-820px;
+820-1024px;
+1024px->
+
+way1: hard code for every screen size i write the exact pixels
+way2:
+
+1st breakpoint:
+the point where the scroll bar starts appearing;
+3 main patterns of responsive design:
+    1.mostly fluid
+    2.column-drop
+    3.layout-shifter
+
+in responsive design the first thing to do is:
+set
+    *{
+        box-sizing:border-box;
+    }
+
+another design
+homework:
+    5.make all the 3 patterns of responsive design using css and html;
+    6.
+use vh to specify viewport height
+eg:
+    100vh for 100%of viewport
+vw for viewport width
+
+how to override bootstrap elements:
+    place an exclamation mark after the property and write important
+    eg:
+    text-align:center !important
+
+BOOTSTRAP:
+    col:
+        1.lg
+        2.sm
+        3.md
+        4.xs
+       eg:
+        col-xs-6
+        .hide
+        .show
+        .invisible
+        read bootstrap
+tasks:
+1.portfolio revamp
+
+2.layout:
+	all three
+
+3.animation:
+	simultaneous animation using css
