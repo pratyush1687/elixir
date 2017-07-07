@@ -82,9 +82,10 @@ div#box{
 }
 .output{
     height: 70vh;
-    position: absolute;
+    position: fixed;
     z-index:2000;
-    top:10vh;
+    top:20vh;
+    left: 12.3vw;
     box-shadow: 2px 2px 2px 2px rgba(0,0,0,.2);
     background-color: whitesmoke;
 }

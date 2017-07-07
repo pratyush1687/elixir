@@ -2,7 +2,7 @@
  * Created by pratyush on 29/6/17.
  */
 var todoList=(localStorage.getItem('todo'));
-    console.log(todoList);
+    // console.log(todoList);
     if (todoList=='undefined'||!todoList){
         console.log("in if");
         todoList=[];

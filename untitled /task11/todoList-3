@@ -1,0 +1,9 @@
+//outline
+1.store list in filesystem
+
+2. use backend server to get data from file and then
+send the data to front end after ajax request is made from the FE
+
+3.add functionality:
+    user presses add button on FE,sends a request to server server updates the todolist
+    appends it in file returns the new list to FE render new list
