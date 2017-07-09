@@ -12,7 +12,9 @@ app.get('/getData',function (req,res) {
     res.send('request handled');
 });
 app.get('/push',function (req,res) {
-    todolist.push((req.query.todo));
+    if (req.query.todo!=''){
+        todolist.push(req.query.todo);
+    };
     // console.log(todolist);
     // console.log(req.query);
     res.send(todolist);

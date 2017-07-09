@@ -13,7 +13,7 @@ h1{
     margin-bottom: 0;
 }
 .top{
-    background-image: url('../my tries/public_static/Website-Design-Background.png');
+    background-image: url('Website-Design-Background.png');
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -110,7 +110,7 @@ h1{
      position: relative;
      float:right;
      font-size: 30px;
-     top:32%;
+     top:-25%;
      left:-5%;
  }
  i:hover{
@@ -141,6 +141,9 @@ h1{
      /*z-index:-2;*/
      outline:none;
      background-color: whitesmoke;
+ }
+ #take{
+     background-color: transparent;
  }
 i#add{
     /*width:10%;*/
